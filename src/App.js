@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Baitap1 from "./baitap1";
+import Baitap2 from "./baitap2";
+import Baitap3 from "./baitap3";
+import DataBinding from "./DataBinding/DataBinding";
+import DemoProps from "./DemoProps/DemoProps";
+import DemoState from "./DemoState/DemoState";
+import EventHandling from "./EventHandling/EventHandling";
+import Ex_Layout from "./Ex_Layout/Ex_Layout";
+import Ex_ShoeShop from "./Ex_ShoeShop/Ex_ShoeShop";
+import Ex_State_Car from "./Ex_State_Car/Ex_State_Car";
+import ExPhone from "./ExPhone/ExPhone";
+import RenderWithMap from "./RenderWithMap/RenderWithMap";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <DemoClass />
+      <DemoFunction></DemoFunction> */}
+      {/* <DemoHeader /> */}
+      {/* <Baitap1 /> */}
+      {/* <Baitap2 /> */}
+      {/* <RenderWithMap /> */}
+      {/* <DataBinding /> */}
+      {/* <EventHandling /> */}
+      {/* <DemoState /> */}
+      {/* <Ex_State_Car /> */}
+      {/* <Ex_Layout /> */}
+      {/* <RenderWithMap /> */}
+      {/* <DemoProps /> */}
+      {/* <ExPhone /> */}
+      <Ex_ShoeShop />
     </div>
   );
 }
